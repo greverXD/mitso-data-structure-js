@@ -20,7 +20,7 @@ class ListNode {
   }
 }
 
-class Queue {
+module.exports =  class Queue {
   constructor() {
     this.head = null; 
     this.tail = null;
@@ -54,4 +54,4 @@ class Queue {
   }
 }
 
-module.exports = Queue;
+
